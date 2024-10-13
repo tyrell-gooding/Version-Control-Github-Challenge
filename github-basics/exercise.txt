@@ -1,0 +1,22 @@
+1: the terminal is a way you can access the roots of your computer you can see what files you have downloaded andwhat versions 
+of things are downloaded. it's just a way you can talk to your computer without using guis.
+
+2: i think the differents between git and git hub is git is used to control the actions on your computer
+and github is used to display those items git pushes to it
+
+3: so there is multiple ways to push items to github you can pull remotely so if you have it locally already 
+you can use get remote to push it to git hub or you can create a new repository and commit your file to github 
+
+
+ex 1: git remote add origin git@github.com:tyrell-gooding/google-homepage.git
+git branch -M main
+git push -u origin main
+
+ex 2: echo "# google-homepage" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:tyrell-gooding/google-homepage.git
+git push -u origin main
+
